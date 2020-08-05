@@ -1,0 +1,170 @@
+body {
+    background-color: hsl(229, 57%, 11%);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.image-bg-desktop {
+    position: absolute;
+    top: 360px;
+    width: 100%;
+}
+
+/* BOXES */
+
+.box-1 {
+    background-color: hsl(228, 56%, 26%);
+    width: 330px;
+    height: 180px;
+    border-radius: 10px 90px 10px 10px;
+    position: absolute;
+    top: 280px;
+    left: 250px;
+}
+
+.box-2 {
+    background-color: hsl(228, 56%, 26%);
+    width: 450px;
+    height: 140px;
+    border-radius: 8px;
+    font-weight: 400;
+    position: absolute;
+    left: 610px;
+    top: 320px;
+}
+
+/* IMAGES OF BOX 1*/
+
+#box-three-images {
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+#logo {
+    width: 116px;
+    height: 37px;
+    margin-left: 35px;
+    margin-top: 32px;
+}
+
+#document {
+    width: 19px;
+    height: 23px;
+    margin: 11px auto;
+}
+
+#folder {
+    width: 22px;
+    height: 20px;
+    margin: 14px auto;
+}
+
+#upload {
+    width: 25px;
+    height: 18px;
+    margin: 14px auto;
+}
+
+.box-images {
+    display: inline-block;
+    background-color: hsl(229, 57%, 11%);
+    width: 45px;
+    height: 46px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+.box-images img {
+    display: block;
+}
+
+/* TEXT OF BOX 2*/
+
+p, span {
+    font-family: 'Raleway', sans-serif;
+    color:hsl(243, 100%, 93%);
+    font-size: 12px;
+}
+
+.sentence-GB {
+    margin-left: 40px;
+    padding-top: 20px;
+
+}
+
+span {
+    font-weight: 700;
+}
+
+/* BOX WHITE OF GB*/
+
+.GB-box {
+    width: 140px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    position: absolute;
+    left: 270px;
+    top: -30px;
+}
+
+/* TEXT OF BOX WHITE OF GB*/
+
+.left {
+    color: hsl(229, 7%, 55%);
+    font-size: 9px;
+}
+
+.p-gb-box {
+    color: hsl(229, 57%, 11%);
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    padding: 8px;
+    margin: 0;
+}
+
+/* BAR */
+
+.charge {
+    background-color: hsl(229, 57%, 11%);
+    width: 380px;
+    height: 15px;
+    border-radius: 10px;
+    margin-left: 35px;
+}
+
+.bar {
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: 280px;
+    height: 11px;
+    border-radius: 10px;
+    margin-left: 3px;
+    margin-top: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.circle {
+    width: 9px;
+    height: 9px;
+    background-color: hsl(243, 100%, 93%);
+    border-radius: 50%;
+    position: relative;
+    left: 270px;
+    top: 1px;
+}
+
+/* START AND FINISH OF GB BAR*/
+
+.start-finish {
+    display: flex;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.start {
+    margin-right: 300px;
+}
+
